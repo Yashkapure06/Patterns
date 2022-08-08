@@ -12,7 +12,7 @@ public class RightTriangle {
 			//inner for loop -> for columns
 			for (j = 0; j <=i; j++) {
 					//print stars
-				System.out.print("*");
+				System.out.print(" *");
 			}
 			System.out.println();
 		}
