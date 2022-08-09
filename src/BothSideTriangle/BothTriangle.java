@@ -1,12 +1,10 @@
-package LeftTrianglePattern;
+package BothSideTriangle;
 
-public class LeftTriangle {
+public class BothTriangle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		// i = row, j = col
-		int i, j, k, row = 6;
+		int i, j, row = 6;
 
 		System.out.println();
 		for (i = 0; i < row; i++) {
@@ -18,6 +16,12 @@ public class LeftTriangle {
 			for (j = 0; j <= i; j++) {
 				System.out.print("* ");
 			}
+
+			for (j = 6; j <= i + row; j++) {
+				System.out.print(" *");
+			}
+
+
 			// throws the cursor in a new line after printing each line
 			System.out.println();
 		}
