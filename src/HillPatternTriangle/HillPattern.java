@@ -1,6 +1,6 @@
-package BothSideTriangle;
+package HillPatternTriangle;
 
-public class BothTriangle {
+public class HillPattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,36 +1,30 @@
 package DiamondPattern;
 
-import java.util.Scanner;
 
 public class Diamond {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int row, i, j, space = 1;
-		System.out.print("Enter the number of rows you want to print: ");
-		Scanner sc = new Scanner(System.in);
-		row = sc.nextInt();
-		space = row - 1;
-		for (j = 1; j <= row; j++) {
-			for (i = 1; i <= space; i++) {
+		int i, j, k;
+		for (i = 1; i <= 5; i++) { //For rows
+			for (j = 5; j > i; j--) {
 				System.out.print(" ");
 			}
-			space--;
-			for (i = 1; i <= 2 * j - 1; i++) {
+			for (k = 1; k <= (2 * i - 1); k++) {
 				System.out.print("*");
 			}
-			System.out.println("");
+			System.out.println();
 		}
-		space = 1;
-		for (j = 1; j <= row - 1; j++) {
-			for (i = 1; i <= space; i++) {
+		
+		
+		for (i = 4; i >=1; i--) {
+			for (j = 5; j > i; j--) {
 				System.out.print(" ");
 			}
-			space++;
-			for (i = 1; i <= 2 * (row - j) - 1; i++) {
+			for (k = 1; k <= (2 * i - 1); k++) {
 				System.out.print("*");
 			}
-			System.out.println("");
+			System.out.println();
 		}
 
 	}
