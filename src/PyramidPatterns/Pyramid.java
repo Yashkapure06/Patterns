@@ -4,24 +4,17 @@ public class Pyramid {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i, j, row = 6 ;
-		
-		
-		for (i = 0; i < row; i++) {
-			
-			
-			for (j = row-i; j >1; j--) {
+		int i, j, k;
+		for(i=1;i<=5;i++) {
+			for(j=5;j>i;j--) {
 				System.out.print(" ");
 			}
-			
-			
-			for (j = 0; j <= i; j++) {
-				System.out.print("* ");
+			for(k=1;k<=(2*i-1);k++) {
+				System.out.print("*");
 			}
-			// throws the cursor in a new line after printing each line
 			System.out.println();
-			
 		}
+		
 		
 		
 	}
