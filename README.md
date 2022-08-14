@@ -20,7 +20,7 @@
      * * * * * 
    * * * * * * 
 ```
-3.Left and Right Triangle
+3.Hill Pattern Triangle
 ```
              *  *
            * *  * *
@@ -29,11 +29,57 @@
      * * * * *  * * * * *
    * * * * * *  * * * * * *
 ```
-4.Pyramid
+4.Pyramid Pattern
 ```
     *
    ***
   *****
  *******
 *********
+```
+5.Diamond Pattern
+```
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+```
+6.Square Pattern
+```
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+* * * * * * 
+```
+7.Rectangle pattern
+```
+******
+******
+******
+******
+******
+******
+```
+8.Decreasing Left Triangle Pattern
+```
+   * * * * *
+     * * * *
+       * * *
+         * *
+           *
+```
+9.Decreasing Right Triangle Pattern
+```
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
 ```
