@@ -37,7 +37,15 @@
  *******
 *********
 ```
-5.Diamond Pattern
+5.Reverse Pyramid Pattern
+```
+       * * * * * 
+        * * * * 
+         * * * 
+          * * 
+           * 
+```
+6.Diamond Pattern
 ```
     *
    ***
@@ -49,7 +57,7 @@
    ***
     *
 ```
-6.Square Pattern
+7.Square Pattern
 ```
 * * * * * * 
 * * * * * * 
@@ -58,7 +66,7 @@
 * * * * * * 
 * * * * * * 
 ```
-7.Rectangle pattern
+8.Rectangle pattern
 ```
 ******
 ******
@@ -67,7 +75,7 @@
 ******
 ******
 ```
-8.Decreasing Left Triangle Pattern
+9.Decreasing Left Triangle Pattern
 ```
    * * * * *
      * * * *
@@ -82,4 +90,17 @@
 * * * 
 * * 
 *
+```
+10.Right Pascles Triangle
+```
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ * * * *
+ * * *
+ * *
+ *
+
 ```
