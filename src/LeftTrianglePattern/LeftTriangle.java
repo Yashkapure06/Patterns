@@ -6,7 +6,7 @@ public class LeftTriangle {
 		// TODO Auto-generated method stub
 
 		// i = row, j = col
-		int i, j, k, row = 6;
+		int i, j, row = 6;
 
 		System.out.println();
 		for (i = 0; i < row; i++) {
