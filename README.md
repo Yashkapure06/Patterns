@@ -1,4 +1,4 @@
-# Patterns In Java
+# Patterns
 
 1.Right Triangle
 ```
