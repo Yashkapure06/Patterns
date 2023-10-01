@@ -142,7 +142,7 @@
      *   *
      *   *
 ```
-14.Triangle Star Pattern
+14.Triangle Star Pattern 
 ```
            *
           * *

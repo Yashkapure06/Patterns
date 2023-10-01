@@ -24,7 +24,7 @@ public class TriangleStarPattern {
                 }
             }
 
-            // Move to the next line for the next row
+            // Move to the next line for the next row this will addd new line in the pattern
             System.out.println("");
         }
 
